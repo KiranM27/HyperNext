@@ -69,9 +69,9 @@ export default function Footer() {
           {/* links to other pages */}
           <div className="col-span-1">
             <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0">
-              {navigation.map((item, index) => (
+              {navigation.map((item) => (
                 <Link
-                  key={index}
+                  key={item.name}
                   href={item.href}
                   className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700"
                 >
@@ -85,9 +85,9 @@ export default function Footer() {
           {/* legal links */}
           <div className="col-span-1">
             <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0">
-              {legal.map((item, index) => (
+              {legal.map((item) => (
                 <Link
-                  key={index}
+                  key={item.name}
                   href={item.href}
                   className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700"
                 >
@@ -102,9 +102,9 @@ export default function Footer() {
           <div className="col-span-1">
             <div>Follow us</div>
             <div className="flex mt-5 space-x-5 text-gray-400 dark:text-gray-500">
-              {socials.map((item, index) => {
+              {socials.map((item) => {
                 return (
-                  <a href={item.href} target="_blank" rel="noopener" key={index}>
+                  <a href={item.href} target="_blank" rel="noopener" key={item.name}>
                     <span className="sr-only">{item.name}</span>
                     {item.element}
                   </a>
@@ -116,7 +116,7 @@ export default function Footer() {
         {/* social links end */}
 
         {/* copyright */}
-        <div className="my-10 text-sm text-center text-gray-600 dark:text-gray-400">{COPYRIGHT}</div>
+        <div className="mt-10 text-sm text-center text-gray-600 dark:text-gray-400">{COPYRIGHT}</div>
       </Container>
     </div>
   );
