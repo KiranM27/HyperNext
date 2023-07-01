@@ -8,10 +8,10 @@ type Props = {
 
 const PrimaryLayout: React.FC<Props> = ({ children }) => {
   return (
-    <Container>
+    <>
       <Navbar />
-      {children}
-    </Container>
+      <Container>{children}</Container>
+    </>
   );
 };
 

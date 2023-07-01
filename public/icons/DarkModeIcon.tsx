@@ -7,7 +7,7 @@ export default function DarkModeIcon() {
       width="24"
       height="24"
       viewBox="0 0 24 24"
-      fill="none"
+      fill="black"
       stroke="currentColor"
       strokeWidth="1"
       strokeLinecap="round"
