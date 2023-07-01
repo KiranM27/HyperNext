@@ -16,7 +16,7 @@ const ThemeChanger = () => {
     const localTheme = window?.localStorage?.getItem(THEME_STORAGE_KEY) ?? LIGHT_THEME;
     setTheme(localTheme);
     setMounted(true);
-  }, []);
+  }, [setTheme]);
 
   const handleThemeChange = () => {
     const newTheme = theme === LIGHT_THEME ? DARK_THEME : LIGHT_THEME;
