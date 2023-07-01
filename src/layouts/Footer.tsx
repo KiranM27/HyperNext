@@ -2,10 +2,10 @@ import Link from 'next/link';
 import React from 'react';
 import Container from '@/components/Container';
 import { COPYRIGHT, PRODUCT_DESCRIPTION, PRODUCT_NAME } from '@/constants/meta';
-import Twitter from '@/public/icons/Twitter';
-import Facebook from '@/public/icons/Facebook';
-import Instagram from '@/public/icons/Instagram';
-import LinkedIn from '@/public/icons/LinkedIn';
+import Twitter from '@/public/icons/socials/Twitter';
+import Facebook from '@/public/icons/socials/Facebook';
+import Instagram from '@/public/icons/socials/Instagram';
+import LinkedIn from '@/public/icons/socials/LinkedIn';
 
 export default function Footer() {
   // navigation items
