@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 const Home: PageWithPrimaryLayout = () => {
   return (
-    <div className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}>
+    <div className={`flex min-h-screen flex-col items-center justify-between ${inter.className} w-full`}>
       <Intro />
     </div>
   );

@@ -1,13 +1,12 @@
 import Container from '@/components/Container';
 import { PRODUCT_DESCRIPTION } from '@/constants/meta';
+import LaunchImage from '@/public/icons/landing/LaunchImage';
 import AmazonLogo from '@/public/icons/logos/AmazonLogo';
 import GithubIcon from '@/public/icons/logos/GithubIcon';
 import MicrosoftLogo from '@/public/icons/logos/MicrosoftLogo';
 import NetflixLogo from '@/public/icons/logos/NetflixLogo';
 import SonyLogo from '@/public/icons/logos/SonyLogo';
 import VerizonLogo from '@/public/icons/logos/VerizonLogo';
-import heroImg from '@/public/images/landing/launch.png';
-import Image from 'next/image';
 
 const Intro = () => {
   const socialProofs = [
@@ -35,7 +34,7 @@ const Intro = () => {
 
   return (
     <>
-      <Container className="flex flex-wrap w-[100%]">
+      <Container className="flex flex-wrap flex-row items-center my-16">
         <div className="flex items-center w-full lg:w-1/2">
           <div className="max-w-2xl mb-8">
             <h1 className="text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
@@ -58,7 +57,7 @@ const Intro = () => {
         </div>
         <div className="flex items-center justify-center w-full lg:w-1/2">
           <div className="">
-            <Image src={heroImg} width="616" height="617" className={'object-cover'} alt="Hero Illustration" loading="eager" placeholder="blur" />
+            <LaunchImage />
           </div>
         </div>
       </Container>
