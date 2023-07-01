@@ -6,7 +6,7 @@ type Props = {
 };
 
 const Container = ({ children, className }: Props) => {
-  return <div className={`container p-16 ${className ? className : ''}`}>{children}</div>;
+  return <div className={`container p-16 mx-auto ${className ? className : ''}`}>{children}</div>;
 };
 
 export default Container;

@@ -1,7 +1,9 @@
 import Container from '@/components/Container';
-import Navbar from '@/components/Navbar';
+import { PRODUCT_DESCRIPTION, PRODUCT_NAME } from '@/constants/meta';
 import Head from 'next/head';
 import React from 'react';
+import Navbar from '@/layouts/Navbar';
+import Footer from '@/layouts/Footer';
 
 type Props = {
   children: React.ReactNode;
@@ -14,13 +16,14 @@ const PrimaryLayout: React.FC<Props> = ({ children, title, description }) => {
     <>
       {/* page meta data */}
       <Head>
-        <title>{title || 'HyperNext'}</title>
-        <meta name="description" content={description || 'Ignite your Next.js projects with enhanced productivity and unleash boundless development possibilities.'} />
+        <title>{title || PRODUCT_NAME}</title>
+        <meta name="description" content={description || PRODUCT_DESCRIPTION} />
       </Head>
       {/* end of page meta data */}
 
       <Navbar />
       <Container>{children}</Container>
+      <Footer />
     </>
   );
 };

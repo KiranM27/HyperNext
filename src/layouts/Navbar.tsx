@@ -1,7 +1,8 @@
-import Link from 'next/link';
-import ThemeSwitch from './ThemeSwitch';
 import { Disclosure } from '@headlessui/react';
+import Link from 'next/link';
 import React from 'react';
+import ThemeSwitch from '../components/ThemeSwitch';
+import { PRODUCT_NAME } from '@/constants/meta';
 
 const Navbar: React.FC = () => {
   const navigation = ['Product', 'Features', 'Pricing', 'Company', 'Blog'];
@@ -16,7 +17,7 @@ const Navbar: React.FC = () => {
               <div className="flex flex-wrap items-center justify-between w-full lg:w-auto">
                 <Link href="/">
                   <span className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
-                    <span>HyperNext</span>
+                    <span>{PRODUCT_NAME}</span>
                   </span>
                 </Link>
 

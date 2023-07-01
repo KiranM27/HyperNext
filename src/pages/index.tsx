@@ -1,6 +1,6 @@
 import { PageWithPrimaryLayout } from '@/types/page';
 import { Inter } from 'next/font/google';
-import PrimaryLayout from 'src/Layouts/PrimaryLayout';
+import PrimaryLayout from 'src/layouts/PrimaryLayout';
 
 const inter = Inter({ subsets: ['latin'] });
 

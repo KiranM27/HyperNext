@@ -19,8 +19,10 @@
       "@/public/*": ["public/*"],
       "@/styles/*": ["src/styles/*"],
       "@/elements/*": ["src/elements/*"],
+      "@/layouts/*": ["src/layouts/*"],
       "@/components/*": ["src/components/*"],
       "@/types/*": ["src/types/*"],
+      "@/constants/*": ["src/constants/*"],
       "@/helpers/*": ["src/helpers/*"],
       "@/redux/*": ["src/app/redux/*"],
       "@/tests/*": ["src/tests/*"]

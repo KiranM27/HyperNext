@@ -1,3 +1,3 @@
 # HyperNext
 
-Ignite your Next.js projects with enhanced productivity and unleash boundless development possibilities.
+Supercharge Your Development Straight Out-of-the-Box.
