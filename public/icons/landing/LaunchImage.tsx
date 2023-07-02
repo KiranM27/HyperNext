@@ -1,15 +1,15 @@
 import React, { useEffect } from 'react';
 
 const LaunchImage = () => {
-  const [width, setWidth] = React.useState<number>(window?.innerWidth || 0);
+  const [width, setWidth] = React.useState<number>(0);
   const [device, setDevice] = React.useState<'mobile' | 'tablet' | 'desktop'>('desktop');
   const [size, setSize] = React.useState<number>(500);
 
   // update the width of the screen on resize
   useEffect(() => {
-    const handleResize = () => setWidth(window.innerWidth);
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
+    const handleResize = () => setWidth(window?.innerWidth || 0);
+    window?.addEventListener('resize', handleResize);
+    return () => window?.removeEventListener('resize', handleResize);
   }, []);
 
   // update the  device type based on the width
