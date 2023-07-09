@@ -23,7 +23,7 @@ export type TBullet = {
 export const IconWrapperClass = 'w-7 h-7 text-white';
 
 export const PrimaryBenefits: TBenefits = {
-  title: 'HyperNext Benefits',
+  title: 'Benefits',
   desc: 'HyperNext comes equipped with utilites such as Redux, React Query, React Portals and more to help you hit the ground running.',
   image: benefitOneImg,
   bullets: [
