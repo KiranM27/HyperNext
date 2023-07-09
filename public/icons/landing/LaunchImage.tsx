@@ -8,6 +8,7 @@ const LaunchImage = () => {
   // update the width of the screen on resize
   useEffect(() => {
     const handleResize = () => setWidth(window?.innerWidth || 0);
+    handleResize();
     window?.addEventListener('resize', handleResize);
     return () => window?.removeEventListener('resize', handleResize);
   }, []);
