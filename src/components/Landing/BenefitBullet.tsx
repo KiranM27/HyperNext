@@ -1,5 +1,5 @@
 import React from 'react';
-import { TBenefitBulletIcon } from 'src/data/benefits';
+import { TBenefitBulletIcon } from '@/data/benefits';
 
 type Props = {
   icon: TBenefitBulletIcon;

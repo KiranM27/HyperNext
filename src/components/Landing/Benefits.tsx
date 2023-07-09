@@ -1,7 +1,7 @@
 import React from 'react';
 import Container from '@/components/Container';
-import BenefitBullet from './BenefitBullet';
-import { TBenefits } from 'src/data/benefits';
+import BenefitBullet from '@/components/Landing/BenefitBullet';
+import { TBenefits } from '@/data/benefits';
 
 type Props = {
   imgPos: 'left' | 'right';

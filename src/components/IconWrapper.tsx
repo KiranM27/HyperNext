@@ -1,5 +1,5 @@
 import { ReactElement, cloneElement } from 'react';
-import { IconWrapperClass } from 'src/data/benefits';
+import { IconWrapperClass } from '@/data/benefits';
 
 interface IconWrapperProps {
   icon: ReactElement;

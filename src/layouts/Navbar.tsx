@@ -1,7 +1,7 @@
 import { Disclosure } from '@headlessui/react';
 import Link from 'next/link';
 import React from 'react';
-import ThemeSwitch from '../components/ThemeSwitch';
+import ThemeSwitch from '@/components/ThemeSwitch';
 import { PRODUCT_NAME } from '@/constants/meta';
 
 const Navbar: React.FC = () => {

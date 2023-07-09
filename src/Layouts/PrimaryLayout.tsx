@@ -16,8 +16,8 @@ const PrimaryLayout: React.FC<Props> = ({ children, title, description }) => {
     <>
       {/* page meta data */}
       <Head>
-        <title>{title || PRODUCT_NAME}</title>
-        <meta name="description" content={description || PRODUCT_DESCRIPTION} />
+        <title>{title ?? PRODUCT_NAME}</title>
+        <meta name="description" content={description ?? PRODUCT_DESCRIPTION} />
       </Head>
       {/* end of page meta data */}
 

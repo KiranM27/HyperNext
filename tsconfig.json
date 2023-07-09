@@ -19,6 +19,7 @@
       "@/api/*": ["src/api/*"],
       "@/components/*": ["src/components/*"],
       "@/constants/*": ["src/constants/*"],
+      "@/data/*": ["src/data/*"],
       "@/elements/*": ["src/elements/*"],
       "@/helpers/*": ["src/helpers/*"],
       "@/layouts/*": ["src/layouts/*"],

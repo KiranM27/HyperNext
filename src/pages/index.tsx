@@ -2,10 +2,10 @@ import Benefits from '@/components/Landing/Benefits';
 import Intro from '@/components/Landing/Intro';
 import SectionTitle from '@/components/SectionTitle';
 import { PRODUCT_DESCRIPTION } from '@/constants/meta';
+import { PrimaryBenefits, SecondaryBenefits } from '@/data/benefits';
+import PrimaryLayout from '@/layouts/PrimaryLayout';
 import { PageWithPrimaryLayout } from '@/types/page';
 import { Inter } from 'next/font/google';
-import { PrimaryBenefits, SecondaryBenefits } from 'src/data/benefits';
-import PrimaryLayout from 'src/layouts/PrimaryLayout';
 
 const inter = Inter({ subsets: ['latin'] });
 

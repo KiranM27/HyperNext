@@ -1,5 +1,5 @@
 import React from 'react';
-import Container from './Container';
+import Container from '@/components/Container';
 
 type Props = {
   align?: 'left' | 'center';
