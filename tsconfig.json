@@ -16,16 +16,17 @@
     "incremental": true,
     "baseUrl": ".",
     "paths": {
-      "@/public/*": ["public/*"],
-      "@/styles/*": ["src/styles/*"],
-      "@/elements/*": ["src/elements/*"],
-      "@/layouts/*": ["src/layouts/*"],
+      "@/api/*": ["src/api/*"],
       "@/components/*": ["src/components/*"],
-      "@/types/*": ["src/types/*"],
       "@/constants/*": ["src/constants/*"],
+      "@/elements/*": ["src/elements/*"],
       "@/helpers/*": ["src/helpers/*"],
+      "@/layouts/*": ["src/layouts/*"],
+      "@/public/*": ["public/*"],
       "@/redux/*": ["src/app/redux/*"],
-      "@/tests/*": ["src/tests/*"]
+      "@/styles/*": ["src/styles/*"],
+      "@/tests/*": ["src/tests/*"],
+      "@/types/*": ["src/types/*"]
     },
     "plugins": [
       {
