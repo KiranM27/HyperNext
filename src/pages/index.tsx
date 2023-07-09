@@ -16,8 +16,9 @@ const Home: PageWithPrimaryLayout = () => {
         <Intro />
 
         {/* Benefits Section */}
-        <div className="mt-32">
+        <div className="mt-32 w-full">
           <SectionTitle title=" Why should you use HyperNext">{PRODUCT_DESCRIPTION}</SectionTitle>
+          <div className="my-4" />
           <Benefits imgPos="left" data={PrimaryBenefits} />
           <Benefits imgPos="right" data={SecondaryBenefits} />
         </div>
