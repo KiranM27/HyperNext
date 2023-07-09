@@ -1,3 +1,4 @@
+// api/github.api.ts
 import { useQuery } from '@tanstack/react-query';
 
 export type TGithubUser = {
