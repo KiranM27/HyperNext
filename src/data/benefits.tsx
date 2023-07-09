@@ -1,14 +1,13 @@
 import { FaceSmileIcon, ChartBarSquareIcon, CursorArrowRaysIcon, DevicePhoneMobileIcon, AdjustmentsHorizontalIcon, SunIcon } from '@heroicons/react/24/solid';
 import IconWrapper from '@/components/IconWrapper';
-import benefitOneImg from '@/public/images/landing/launch.png';
-import benefitTwoImg from '@/public/images/landing/launch.png';
-import { StaticImageData } from 'next/image';
+import CodeImage from '@/public/icons/landing/CodeImage';
+import MobileImage from '@/public/icons/landing/MobileImage';
 
 // create a type for the data
 export type TBenefits = {
   title: string;
   desc: string;
-  image: StaticImageData;
+  image: React.ReactNode;
   bullets: TBullet[];
 };
 
@@ -25,7 +24,7 @@ export const IconWrapperClass = 'w-7 h-7 text-white';
 export const PrimaryBenefits: TBenefits = {
   title: 'Benefits',
   desc: 'HyperNext comes equipped with utilites such as Redux, React Query, React Portals and more to help you hit the ground running.',
-  image: benefitOneImg,
+  image: <CodeImage />,
   bullets: [
     {
       title: 'Redux',
@@ -48,7 +47,7 @@ export const PrimaryBenefits: TBenefits = {
 export const SecondaryBenefits: TBenefits = {
   title: 'Other Benefits',
   desc: 'HyperNext also comes with other features that make it a great choice for your next project.',
-  image: benefitTwoImg,
+  image: <MobileImage />,
   bullets: [
     {
       title: 'Mobile Responsive Template',

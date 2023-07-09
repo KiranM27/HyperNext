@@ -1,6 +1,5 @@
 import React from 'react';
 import Container from '@/components/Container';
-import Image from 'next/image';
 import BenefitBullet from './BenefitBullet';
 import { TBenefits } from 'src/data/benefits';
 
@@ -12,11 +11,9 @@ type Props = {
 const Benefits = ({ imgPos, data }: Props) => {
   return (
     <>
-      <Container className="flex flex-wrap mb-20 lg:gap-10 lg:flex-nowrap">
+      <Container className="flex flex-wrap mb-5 lg:gap-10 lg:flex-nowrap">
         <div className={`flex items-center justify-center w-full lg:w-1/2 ${imgPos === 'right' ? 'lg:order-1' : ''}`}>
-          <div>
-            <Image src={data.image} width="521" alt="Benefits" className={'object-cover'} placeholder="blur" blurDataURL={data.image.src} />
-          </div>
+          <div>{data.image}</div>
         </div>
 
         <div className={`flex flex-wrap items-center w-full lg:w-1/2 ${imgPos === 'right' ? 'lg:justify-end' : ''}`}>
