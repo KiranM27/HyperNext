@@ -23,7 +23,8 @@ export const IconWrapperClass = 'w-7 h-7 text-white';
 
 export const PrimaryBenefits: TBenefits = {
   title: 'Benefits',
-  desc: 'HyperNext comes equipped with utilites such as Redux, React Query, React Portals and more to help you hit the ground running.',
+  desc: 'HyperNext comes fully equipped with utilites such as Redux, React Query, React Portals and more to help you hit the ground running.',
+
   image: <CodeImage />,
   bullets: [
     {
