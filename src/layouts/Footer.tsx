@@ -3,8 +3,6 @@ import React from 'react';
 import Container from '@/components/Container';
 import { COPYRIGHT, PRODUCT_DESCRIPTION, PRODUCT_NAME } from '@/constants/meta';
 import Twitter from '@/public/icons/socials/Twitter';
-import Facebook from '@/public/icons/socials/Facebook';
-import Instagram from '@/public/icons/socials/Instagram';
 import LinkedIn from '@/public/icons/socials/LinkedIn';
 
 export default function Footer() {
@@ -32,16 +30,6 @@ export default function Footer() {
       name: 'Twitter',
       href: 'https://twitter.com',
       element: <Twitter />,
-    },
-    {
-      name: 'Facebook',
-      href: 'https://facebook.com',
-      element: <Facebook />,
-    },
-    {
-      name: 'Instagram',
-      href: 'https://instagram.com',
-      element: <Instagram />,
     },
     {
       name: 'LinkedIn',
