@@ -30,23 +30,23 @@ export default function Footer() {
   const socials = [
     {
       name: 'Twitter',
-      href: 'https://twitter.com',
-      element: <Twitter />,
+      href: 'https://x.com/Afraid_Rex',
+      element: <Twitter />, // Updated Twitter link
     },
     {
       name: 'Facebook',
       href: 'https://facebook.com',
-      element: <Facebook />,
+      element: <Facebook />, // Existing Facebook link
     },
     {
       name: 'Instagram',
       href: 'https://instagram.com',
-      element: <Instagram />,
+      element: <Instagram />, // Existing Instagram link
     },
     {
       name: 'LinkedIn',
       href: 'https://linkedin.com',
-      element: <LinkedIn />,
+      element: <LinkedIn />, // Existing LinkedIn link
     },
   ];
 
