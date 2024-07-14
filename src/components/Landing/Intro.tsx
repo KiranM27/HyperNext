@@ -35,14 +35,14 @@ const Intro = () => {
   return (
     <>
       <Container className="flex flex-wrap flex-row items-center md:my-10 lg:my-20 ">
-        <div className="flex items-center w-full lg:w-1/2">
-          <div className="max-w-2xl mb-8">
-            <h1 className="text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
+        <div className="flex items-center w-full lg:w-1/2 ">
+          <div className="max-w-2xl mb-8 ">
+            <h1 className="text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white ">
               Next.js Template
             </h1>
-            <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">{PRODUCT_DESCRIPTION}</p>
+            <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300 ">{PRODUCT_DESCRIPTION}</p>
 
-            <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
+            <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row ">
               <a
                 href="https://github.com/KiranM27/HyperNext"
                 target="_blank"
@@ -52,10 +52,11 @@ const Intro = () => {
                 <GithubIcon />
                 <span> View on Github</span>
               </a>
+              <p style="font-weight: bold; text-decoration: underline;">Star us on GitHub</p>
             </div>
           </div>
         </div>
-        <div className="flex items-center justify-center w-full lg:w-1/2">
+        <div className="flex items-center justify-center w-full lg:w-1/2 ">
           <div>
             <LaunchImage />
           </div>
@@ -64,13 +65,13 @@ const Intro = () => {
 
       {/* social proof */}
       <Container>
-        <div className="flex flex-col justify-center">
-          <div className="text-xl text-center text-gray-700 dark:text-white">
-            Trusted by <span className="text-indigo-600">2000+</span> customers worldwide *
+        <div className="flex flex-col justify-center ">
+          <div className="text-xl text-center text-gray-700 dark:text-white ">
+            Trusted by <span className="text-indigo-600 ">2000+</span> customers worldwide *
           </div>
 
           {/* company logos */}
-          <div className="flex flex-wrap justify-center gap-5 mt-10 md:justify-around">
+          <div className="flex flex-wrap justify-center gap-5 mt-10 md:justify-around ">
             {socialProofs.map((proof) => {
               return (
                 <div className="pt-2 text-gray-400 dark:text-gray-400" key={proof.name}>
