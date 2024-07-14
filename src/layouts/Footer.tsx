@@ -45,7 +45,7 @@ export default function Footer() {
     },
     {
       name: 'LinkedIn',
-      href: 'https://linkedin.com',
+      href: 'https://www.linkedin.com/in/kiranmohanb/',
       element: <LinkedIn />,
     },
   ];
