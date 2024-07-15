@@ -13,7 +13,7 @@ const ThemeChanger = () => {
   // When mounted on client, now we can show the UI
   useEffect(() => {
     // check if the local storage has a theme set
-    const localTheme = window?.localStorage?.getItem(THEME_STORAGE_KEY) ?? LIGHT_THEME;
+    const localTheme = window?.localStorage?.getItem(THEME_STORAGE_KEY) ?? DARK_THEME;
     setTheme(localTheme);
     setMounted(true);
   }, [setTheme]);
