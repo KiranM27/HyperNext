@@ -27,28 +27,7 @@ export default function Footer() {
   ];
 
   // social items
-  const socials = [
-    {
-      name: 'Twitter',
-      href: 'https://x.com/Afraid_Rex',
-      element: <Twitter />, // Updated Twitter link
-    },
-    {
-      name: 'Facebook',
-      href: 'https://facebook.com',
-      element: <Facebook />, // Existing Facebook link
-    },
-    {
-      name: 'Instagram',
-      href: 'https://instagram.com',
-      element: <Instagram />, // Existing Instagram link
-    },
-    {
-      name: 'LinkedIn',
-      href: 'https://www.linkedin.com/in/kiranmohanb/',
-      element: <LinkedIn />,
-    },
-  ];
+  const socials = [];
 
   return (
     <div className="relative p-8">
@@ -102,7 +81,7 @@ export default function Footer() {
 
           {/* social links */}
           <div className="col-span-1">
-            <div>Follow us</div>
+            {/* <div>Follow us</div>
             <div className="flex mt-5 space-x-5 text-gray-400 dark:text-gray-500">
               {socials.map((item) => {
                 return (
@@ -112,7 +91,7 @@ export default function Footer() {
                   </a>
                 );
               })}
-            </div>
+            </div> */}
           </div>
         </div>
         {/* social links end */}
